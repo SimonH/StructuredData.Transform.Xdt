@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuredData.Transform.xdt", "StructuredData.Transform.xdt\StructuredData.Transform.xdt.csproj", "{0D05CA60-A6E3-4CB2-B20A-17149BEB70CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuredData.Transform.Xdt.Tests", "StructuredData.Transform.Xdt.Tests\StructuredData.Transform.Xdt.Tests.csproj", "{78C7CCB9-F530-4759-8F94-9CBDC9FAA3D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D05CA60-A6E3-4CB2-B20A-17149BEB70CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D05CA60-A6E3-4CB2-B20A-17149BEB70CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D05CA60-A6E3-4CB2-B20A-17149BEB70CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D05CA60-A6E3-4CB2-B20A-17149BEB70CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C7CCB9-F530-4759-8F94-9CBDC9FAA3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C7CCB9-F530-4759-8F94-9CBDC9FAA3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C7CCB9-F530-4759-8F94-9CBDC9FAA3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C7CCB9-F530-4759-8F94-9CBDC9FAA3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
