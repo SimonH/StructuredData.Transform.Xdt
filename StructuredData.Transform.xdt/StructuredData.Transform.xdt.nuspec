@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>StructuredData.Transform</id>
-    <version>0.1.0.0</version>
+    <id>StructuredData.Transform.Xdt</id>
+    <version>0.9.0.0</version>
     <authors>Simon Hanlon</authors>
     <owners>Simon Hanlon</owners>
-    <description>Extensible library for transforming structured transport data (e.g. xml / json)</description>
-    <projectUrl>http://github.com/simonH/StructuredData.Transform</projectUrl>
+    <description>StructuredData.Transform implementation for xml using xdt (e.g. code version of csproj TransformXml task)</description>
+    <projectUrl>http://github.com/simonH/StructuredData.Transform.xdt</projectUrl>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-    <tags>structured transport data transformation</tags>
+    <tags>structured transport data transformation xml xdt</tags>
     <language>en-us</language>
     <dependencies>
-      <dependency id="MediaTypeMap" version="[2.1.0]" />
-      <dependency id="StructuredData.Common" version="[0.1.0.0]" />
+      <dependency id="MediaTypeMap" version="2.1.0" />
+      <dependency id="StructuredData.Transform" version="0.9.0.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="StructuredData.Transform\bin\Release\StructuredData.Transform.*" target="lib\net40" />
+    <file src="StructuredData.Transform.Xdt\bin\Release\StructuredData.Transform.Xdt.*" target="lib\net40" />
   </files>
 </package>
