@@ -8,6 +8,6 @@ Available as a package on [Nuget](https://www.nuget.org/packages/StructuredData.
 * Install the package and it's dependencies  
    > install-package StructuredData.Transform.Xdt
 * Use one of the extension methods on StructuredDataTransform
-   [E.g. <source xml text>.Transform(<transform xdt text>, "text/xml", "xdt")]
+   [E.g. "source xml text".Transform("transform xdt text", "text/xml", "xdt")]
    
 
